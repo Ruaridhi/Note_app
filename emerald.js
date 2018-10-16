@@ -19,7 +19,7 @@ class emerald {
         this.testObj = testObj;
     }
 
-    tofEq(value) {
+    toEq(value) {
         if (this.testObj == value) {
             console.log('Passed!');
         } else {
